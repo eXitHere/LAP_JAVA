@@ -18,11 +18,11 @@ public class Circle {
     boolean isFilled;
     static int numberOfObjects = 0;
     Date dateCreated;
-    int[] arr = new arr[10];
+    //int[] arr = new arr[10];
     Circle(){
         dateCreated = new Date();
         numberOfObjects++;
-         Arrays.sort(arr); 
+         //Arrays.sort(arr); 
     }
     
     Circle(double newRadius,String newColor)
